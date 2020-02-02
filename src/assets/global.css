@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: Microsoft YaHei;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+input,
+select {
+  outline: 0;
+  border: 0;
+}
+p {
+  margin: 0;
+}
+/* input,
+select,
+textarea {
+  display: inline-block;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+} */
+[v-cloak] {
+  display: none !important;
+}
+.df {
+  display: flex;
+}
+.dn {
+  display: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-bg {
+  background-color: #f4f5f9;
+}
+.fff-bg {
+  background-color: #fff;
+}
+.min-h-744 {
+  min-height: 744px;
+}
+.min-h-330 {
+  min-height: 330px;
+}
+.max-w-530 {
+  max-width: 530px;
+}
+.max-w-80p {
+  max-width: 80%;
+}
+.mg-t-14 {
+  margin-top: 14px;
+}
+.mg-t-40 {
+  margin-top: 40px;
+}
+.mg-b-100 {
+  margin-bottom: 100px;
+}
+.mg-b-32 {
+  margin-bottom: 32px !important;
+}
+.mg-r-30 {
+  margin-right: 30px;
+}
+.mg-l-20 {
+  margin-left: 20px;
+}
+.mg-r-10 {
+  margin-right: 10px;
+}
+.mg-0 {
+  margin: 0 auto;
+}
+.po-r {
+  position: relative;
+}
+.po-a {
+  position: absolute;
+}
+/*element 弹窗样式修改 */
+.el-message-box__wrapper .el-message-box__title {
+  color: #333;
+}
+.el-message {
+  font-size: 14px;
+}
+.el-message.el-message--success .el-icon-success {
+  color: #2a4793;
+}
+.el-message.el-message--success .el-message__content {
+  color: #2a4793;
+}
+.el-message.el-message--success {
+  background-color: #ecf5ff;
+  border-color: #ecf5ff;
+}
+/*element 按钮的基础|激活|焦点|悬停样式设置  */
+.el-button.el-button--primary:focus,
+.el-button.el-button--primary {
+  color: #fff;
+  background-color: #2a4793;
+  border-color: #2a4793;
+}
+
+.el-button.el-button--primary:hover {
+  background: #5272c6;
+  border-color: #5272c6;
+  color: #fff;
+}
+.el-button.el-button--primary.is-active,
+.el-button.el-button--primary:active {
+  color: #fff;
+  background-color: #2a4793;
+  border-color: #2a4793;
+}
+button.el-button {
+  background: #fff;
+  border-color: #dcdfe6;
+  color: #606266;
+}
+button.el-button:focus,
+button.el-button:hover {
+  color: #98aee1;
+  border-color: #98aee1;
+  background-color: #ecf5ff;
+}
+button.el-button.is-active,
+button.el-button:active {
+  background: #fff;
+  border-color: #dcdfe6;
+  color: #606266;
+}
+/* 单选按钮选中时颜色 */
+.el-radio-group .el-radio.is-bordered.is-checked {
+  border-color: #2a4793;
+}
+.el-radio-group .el-radio__input.is-checked + .el-radio__label {
+  color: #2a4793;
+}
+.el-radio-group .el-radio__input.is-checked .el-radio__inner {
+  border-color: #2a4793;
+  background: #2a4793;
+}
+/* @media screen and (max-width: 1680px) and (min-width: 1366px) {
+  .container {
+    width: 15.5rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 19.2rem;
+  }
+} */
